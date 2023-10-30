@@ -245,6 +245,17 @@ p {
     width: 20px;
 }
 
+.diploma {
+    text-decoration: none;
+    color: #86a8b3;
+    transition: 0.2s ease-in-out;
+}
+
+.diploma:hover {
+    color: #003147;
+    transition: 0.2s ease-in-out;
+}
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
