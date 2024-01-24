@@ -84,6 +84,15 @@ body {
     line-height: 25px;
 }
 
+.content .dados__esquerdo .dados__pessoais .dados__info .info .link {
+    text-decoration: none;
+    color: black;
+}
+
+.content .dados__esquerdo .dados__pessoais .dados__info .info .link:hover {
+    text-decoration: underline;
+}
+
 .content .dados__esquerdo .dados__pessoais .dados__info .subtitle {
     text-transform: uppercase;
 }
