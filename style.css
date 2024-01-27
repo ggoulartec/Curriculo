@@ -46,11 +46,6 @@ body {
   grid-template-columns: 1fr 2fr;
   height: auto;
   width: auto;
-  border-top: 1px solid #ccc;
-}
-
-.content .dados__esquerdo {
-  border-right: 1px solid #ccc;
 }
 
 .content .dados__pessoais {
@@ -59,7 +54,6 @@ body {
 
 .content .dados__direito .dados__pessoais {
   margin-left: 30px;
-  border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
 
