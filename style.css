@@ -1,116 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Calibri", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
 }
 
 body {
-    align-items: center;
-    background: #495163;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
+  align-items: center;
+  background: #495163;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .container {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
-    position: relative;
-    width: 100%;
-    padding: 60px;
-    min-height: 1000px;
-    margin: 50px;
-    max-width: 1000px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  padding: 60px;
+  min-height: 1000px;
+  margin: 50px;
+  max-width: 1000px;
 }
 
 .container .me {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .container .me h2 {
-    font-size: 2.5em;
-    font-weight: 500;
-    text-transform: uppercase;
-    width: 25vw;
-    letter-spacing: 5px;
-    line-height: 50px;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 50px;
 }
 
 .container .me span {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .container .content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: auto;
-    width: auto;
-    border-top: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: auto;
+  width: auto;
+  border-top: 1px solid #ccc;
 }
 
 .content .dados__esquerdo {
-    border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .content .dados__pessoais {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .content .dados__direito .dados__pessoais {
-    margin-left: 30px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+  margin-left: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }
 
 .content .dados__pessoais .title {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-bottom: 3px solid black;
-    width: fit-content;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 3px solid black;
+  width: fit-content;
 }
 
 .content .dados__pessoais .dados__info {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .content .dados__esquerdo .dados__pessoais .dados__info .info {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 .content .dados__esquerdo .dados__pessoais .dados__info .info .link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .content .dados__esquerdo .dados__pessoais .dados__info .info .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .content .dados__esquerdo .dados__pessoais .dados__info .subtitle {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .dados__direito .dados__pessoais .dados__info .subtitle {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
 .dados__direito .dados__pessoais .info p {
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 300;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 @media (max-width: 1000px) {
-    .container {
-        margin: 10px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
